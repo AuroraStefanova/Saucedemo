@@ -19,19 +19,19 @@ Test automation for an interview in FFW
 * JetBrains annotation 24
 
 ## Basic Architecture  
-Pages Folder
-The "Pages" folder is a directory where the page objects are located. 
+Pages Folder <br /> 
+The "Pages" folder is a directory where the page objects are located.
 A page object represents a specific web page or a logical unit of a web application. 
 Each page object encapsulates the elements and actions associated with that particular page. 
 
-BrowserFactory Folder
+BrowserFactory Folder <br />
 The "BrowserFactory" folder is a directory where instantiation of the browsers is implemented. 
 
-Helpers Folder
-The "Helpers" folder is a directory where custom waits of a web application are implemented.
+Helpers Folder <br />
+The "Helpers" folder is a directory where custom waits of the web application are implemented.
 
-Tests Folder 
-The "Tests" folder is a dire ctory where tests are located in different classes each for a different type of user.
+Tests Folder <br />
+The "Tests" folder is a directory where tests are located in different classes each for a different type of user.
 
 ## Executing test
 Place the caret at the test class to run all tests in that class,
